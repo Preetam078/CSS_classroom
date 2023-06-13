@@ -1,0 +1,48 @@
+/*Unviersal selector*/
+*{
+  background-color: black;
+  color: white;
+}
+
+/*Type selector*/
+div{
+  color: pink;
+}
+
+/*Class Selector*/
+.alert_text{
+  color:red;
+}
+.bg_color{
+  background-color: white;
+}
+
+/*ID selector*/
+#selector{
+  background-color: pink;
+  color: black;
+}
+
+/*Grouping Selector*/
+.group1, .group2 {
+  background-color: #c8b1c8;
+  color:purple;
+}
+
+/*chaining Selector*/
+.subsection.header {
+  color: red;
+}
+
+/*Decendent Combinator Notice the differnce with chaining Selector*/
+.ancestor .contents {
+  color:blue;
+}
+
+/*Transparency color in button adding hexadecimal */
+.button{
+  background-color:#ffff0080;
+  border:none;
+  color:black;
+  background-color:
+}
